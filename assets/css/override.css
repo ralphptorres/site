@@ -57,7 +57,7 @@ footer {
     }
 /* for flipped home blob */
 .home-blob-text-container {
-    margin: 12rem 2rem 4rem 6rem; 
+    /* margin: 12rem 2rem 4rem 6rem;  */
     max-width: none;
 }
 /* text inside home blob */
