@@ -1,0 +1,65 @@
+.home-header {
+    margin: 5rem -1.2rem;
+}
+.nav-bar {
+    max-width: 50rem;
+}
+.hamburger-menu-overlay-link {
+    text-transform: lowercase;
+}
+.post a,
+.footer-link a {
+    text-decoration: none;
+    box-shadow: 0 1px 0 #454545;
+}
+.pagination-nav a {
+    text-decoration: none;
+}
+.post a:hover,
+.footer-link a:hover {
+    box-shadow: none;
+}
+.post-title {
+    color: #454545;
+}
+.list-header-title {
+    text-transform: lowercase;
+}
+.list-header-content {
+    text-align: center;
+}
+.card-container {
+    min-width: 50rem;
+}
+.card-title {
+    color: #454545;
+}
+footer {
+    height: 10rem;
+    margin-top: 0;
+}
+.footer-link {
+    font-size: 0.8em;
+    margin: 2.5rem 0;
+    color: #454545
+}
+@media screen and (pointer: coarse) {
+    .card-hover {
+        transform: scale(1);
+    }
+}
+@media not screen and (pointer: coarse) {
+    .card:hover {
+        transform: scale(1);
+    }
+    .card:active {
+        transform: scale(0.97);
+    }
+/* for flipped home blob */
+.home-blob-text-container {
+    margin: 12rem 2rem 4rem 6rem; 
+}
+/* text inside home blob */
+.home-header {
+    color: #eee;
+}
