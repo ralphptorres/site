@@ -28,9 +28,6 @@
 .list-header-content {
     text-align: center;
 }
-.card-container {
-    min-width: 50rem;
-}
 .card-title {
     color: #454545;
 }
@@ -58,6 +55,7 @@ footer {
 /* for flipped home blob */
 .home-blob-text-container {
     margin: 12rem 2rem 4rem 6rem; 
+    max-width: none;
 }
 /* text inside home blob */
 .home-header {
